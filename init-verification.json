@@ -1,0 +1,844 @@
+{
+  "case": "init",
+  "held": {
+    "channel": "69894150",
+    "phase": "init",
+    "arm": "arm_f26e5f90379c49e9b8820f154bb2d138",
+    "ownerThread": "cassandra-poll-poll_isolated_init",
+    "ownerThreadId": 122,
+    "session": "s1"
+  },
+  "workerStartUtc": "2026-10-03T09:18:05.425708Z",
+  "expectedWorkerDeadlineUtc": "2026-10-03T09:19:35.425708+00:00",
+  "workerTimeoutLog": {
+    "timestamp": "2026-10-03T09:19:35.455121Z",
+    "level": "ERROR",
+    "message": "Timeout after 00:01:30.000"
+  },
+  "heldChannelClosedUtc": "2026-10-03T09:20:22.847196Z",
+  "closeAfterHeldSeconds": 134.441944125,
+  "blockedPollingWorkersAfterDeadline": 0,
+  "originalHelperThreadsRemainingAfterRecovery": 0,
+  "earlyOwnerHelperPresent": true,
+  "recoveryExecutionId": "mKdTjT56XC3lWBrpYvZ44",
+  "recoveryRows": 12,
+  "fixtureScope": "exact helper owner/session plus marked CQL and outbound-time arm nonce; fresh single-flow process",
+  "events": [
+    {
+      "event": "TARGET_SESSION_REGISTERED",
+      "channel": "",
+      "phase": "",
+      "utc": "2026-10-03T09:16:38.158094Z",
+      "nano": 12817204873666,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "e378db1b",
+      "phase": "",
+      "utc": "2026-10-03T09:16:40.330308Z",
+      "nano": 12819375950041,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "6a7b1a3b",
+      "phase": "",
+      "utc": "2026-10-03T09:17:27.536551Z",
+      "nano": 12866575445750,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "a7929a8c",
+      "phase": "",
+      "utc": "2026-10-03T09:17:27.539401Z",
+      "nano": 12866578130458,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "1eefc6e8",
+      "phase": "",
+      "utc": "2026-10-03T09:17:27.540677Z",
+      "nano": 12866579393208,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "5229dcc1",
+      "phase": "",
+      "utc": "2026-10-03T09:17:27.543409Z",
+      "nano": 12866582131541,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "68640774",
+      "phase": "",
+      "utc": "2026-10-03T09:17:27.549315Z",
+      "nano": 12866588036541,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "bbe9c60b",
+      "phase": "",
+      "utc": "2026-10-03T09:17:27.550903Z",
+      "nano": 12866589619333,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "2dedd6c4",
+      "phase": "",
+      "utc": "2026-10-03T09:17:27.551938Z",
+      "nano": 12866590648583,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "f3960e13",
+      "phase": "",
+      "utc": "2026-10-03T09:17:27.554128Z",
+      "nano": 12866592861375,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "95244b92",
+      "phase": "",
+      "utc": "2026-10-03T09:17:27.556827Z",
+      "nano": 12866595560416,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "APP_QUERY_SENT",
+      "channel": "6a7b1a3b",
+      "phase": "",
+      "utc": "2026-10-03T09:17:29.719284Z",
+      "nano": 12868757958083,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "APP_LATER_PAGE_SENT",
+      "channel": "a7929a8c",
+      "phase": "",
+      "utc": "2026-10-03T09:17:30.066215Z",
+      "nano": 12869104897250,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "APP_LATER_PAGE_SENT",
+      "channel": "1eefc6e8",
+      "phase": "",
+      "utc": "2026-10-03T09:17:30.399945Z",
+      "nano": 12869438603083,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "APP_LATER_PAGE_SENT",
+      "channel": "5229dcc1",
+      "phase": "",
+      "utc": "2026-10-03T09:17:30.707660Z",
+      "nano": 12869746325291,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "APP_LATER_PAGE_SENT",
+      "channel": "68640774",
+      "phase": "",
+      "utc": "2026-10-03T09:17:31.012598Z",
+      "nano": 12870051244833,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "APP_LATER_PAGE_SENT",
+      "channel": "bbe9c60b",
+      "phase": "",
+      "utc": "2026-10-03T09:17:31.320074Z",
+      "nano": 12870358731291,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "APP_LATER_PAGE_SENT",
+      "channel": "2dedd6c4",
+      "phase": "",
+      "utc": "2026-10-03T09:17:31.666472Z",
+      "nano": 12870705125166,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "95244b92",
+      "phase": "",
+      "utc": "2026-10-03T09:17:32.004457Z",
+      "nano": 12871043098875,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "5229dcc1",
+      "phase": "",
+      "utc": "2026-10-03T09:17:32.005760Z",
+      "nano": 12871044393041,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "6a7b1a3b",
+      "phase": "",
+      "utc": "2026-10-03T09:17:32.006509Z",
+      "nano": 12871045138375,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "2dedd6c4",
+      "phase": "",
+      "utc": "2026-10-03T09:17:32.007057Z",
+      "nano": 12871045683791,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "bbe9c60b",
+      "phase": "",
+      "utc": "2026-10-03T09:17:32.007849Z",
+      "nano": 12871046472958,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "68640774",
+      "phase": "",
+      "utc": "2026-10-03T09:17:32.008410Z",
+      "nano": 12871047031041,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "f3960e13",
+      "phase": "",
+      "utc": "2026-10-03T09:17:32.008754Z",
+      "nano": 12871047370375,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "1eefc6e8",
+      "phase": "",
+      "utc": "2026-10-03T09:17:32.009039Z",
+      "nano": 12871047658125,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "a7929a8c",
+      "phase": "",
+      "utc": "2026-10-03T09:17:32.009925Z",
+      "nano": 12871048553625,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "e378db1b",
+      "phase": "",
+      "utc": "2026-10-03T09:17:32.011865Z",
+      "nano": 12871050507583,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 93,
+      "session": "s0"
+    },
+    {
+      "event": "TARGET_SESSION_REGISTERED",
+      "channel": "",
+      "phase": "",
+      "utc": "2026-10-03T09:18:06.438718Z",
+      "nano": 12905477130458,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "69894150",
+      "phase": "",
+      "utc": "2026-10-03T09:18:06.448653Z",
+      "nano": 12905487064916,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "REAL_RESPONSE_HELD",
+      "channel": "69894150",
+      "phase": "init",
+      "utc": "2026-10-03T09:18:08.405187Z",
+      "nano": 12907443599291,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "HELD_RESPONSE_RELEASED",
+      "channel": "69894150",
+      "phase": "init",
+      "utc": "2026-10-03T09:19:36.209616Z",
+      "nano": 12995247977541,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "TARGET_SESSION_REGISTERED",
+      "channel": "",
+      "phase": "",
+      "utc": "2026-10-03T09:20:07.129258Z",
+      "nano": 13026167625791,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "1354ff2e",
+      "phase": "",
+      "utc": "2026-10-03T09:20:07.135175Z",
+      "nano": 13026173523000,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "8b84fa04",
+      "phase": "",
+      "utc": "2026-10-03T09:20:20.846083Z",
+      "nano": 13039884442333,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "f0f0f1bc",
+      "phase": "",
+      "utc": "2026-10-03T09:20:20.847378Z",
+      "nano": 13039885737291,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "6e7d3a0a",
+      "phase": "",
+      "utc": "2026-10-03T09:20:20.848523Z",
+      "nano": 13039886875041,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "307cc76c",
+      "phase": "",
+      "utc": "2026-10-03T09:20:20.849285Z",
+      "nano": 13039887642458,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "1b131b26",
+      "phase": "",
+      "utc": "2026-10-03T09:20:20.850590Z",
+      "nano": 13039888954458,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "ea25f6dc",
+      "phase": "",
+      "utc": "2026-10-03T09:20:20.851184Z",
+      "nano": 13039889528791,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "b534acbe",
+      "phase": "",
+      "utc": "2026-10-03T09:20:20.851555Z",
+      "nano": 13039889898416,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "1f002d1c",
+      "phase": "",
+      "utc": "2026-10-03T09:20:20.851812Z",
+      "nano": 13039890154916,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "6b354adb",
+      "phase": "",
+      "utc": "2026-10-03T09:20:20.852034Z",
+      "nano": 13039890376416,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "307cc76c",
+      "phase": "",
+      "utc": "2026-10-03T09:20:22.842591Z",
+      "nano": 13041880956041,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "6b354adb",
+      "phase": "",
+      "utc": "2026-10-03T09:20:22.843562Z",
+      "nano": 13041881913583,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "8b84fa04",
+      "phase": "",
+      "utc": "2026-10-03T09:20:22.844048Z",
+      "nano": 13041882402625,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "ea25f6dc",
+      "phase": "",
+      "utc": "2026-10-03T09:20:22.844469Z",
+      "nano": 13041882814833,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "1f002d1c",
+      "phase": "",
+      "utc": "2026-10-03T09:20:22.844698Z",
+      "nano": 13041883042666,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "1b131b26",
+      "phase": "",
+      "utc": "2026-10-03T09:20:22.845042Z",
+      "nano": 13041883394125,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "b534acbe",
+      "phase": "",
+      "utc": "2026-10-03T09:20:22.845627Z",
+      "nano": 13041883985833,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "6e7d3a0a",
+      "phase": "",
+      "utc": "2026-10-03T09:20:22.846298Z",
+      "nano": 13041884650625,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "f0f0f1bc",
+      "phase": "",
+      "utc": "2026-10-03T09:20:22.846790Z",
+      "nano": 13041885139875,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "69894150",
+      "phase": "",
+      "utc": "2026-10-03T09:20:22.847196Z",
+      "nano": 13041885543416,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 122,
+      "session": "s1"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "0e689147",
+      "phase": "",
+      "utc": "2026-10-03T09:20:53.775454Z",
+      "nano": 13072813815708,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "1a443f5d",
+      "phase": "",
+      "utc": "2026-10-03T09:20:53.776915Z",
+      "nano": 13072815273708,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "51be9207",
+      "phase": "",
+      "utc": "2026-10-03T09:20:53.778113Z",
+      "nano": 13072816475583,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "ef29dcff",
+      "phase": "",
+      "utc": "2026-10-03T09:20:53.779428Z",
+      "nano": 13072817775333,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "bc732803",
+      "phase": "",
+      "utc": "2026-10-03T09:20:53.780029Z",
+      "nano": 13072818374041,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "e60fd530",
+      "phase": "",
+      "utc": "2026-10-03T09:20:53.781096Z",
+      "nano": 13072819443041,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "56935fec",
+      "phase": "",
+      "utc": "2026-10-03T09:20:53.781505Z",
+      "nano": 13072819848583,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "08e932ce",
+      "phase": "",
+      "utc": "2026-10-03T09:20:53.781950Z",
+      "nano": 13072820293125,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "bb4c0f1b",
+      "phase": "",
+      "utc": "2026-10-03T09:20:53.782232Z",
+      "nano": 13072820573208,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "APP_QUERY_SENT",
+      "channel": "0e689147",
+      "phase": "",
+      "utc": "2026-10-03T09:20:55.719913Z",
+      "nano": 13074758272291,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "APP_LATER_PAGE_SENT",
+      "channel": "1a443f5d",
+      "phase": "",
+      "utc": "2026-10-03T09:20:56.057019Z",
+      "nano": 13075095373666,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "APP_LATER_PAGE_SENT",
+      "channel": "51be9207",
+      "phase": "",
+      "utc": "2026-10-03T09:20:56.470139Z",
+      "nano": 13075508499458,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "APP_LATER_PAGE_SENT",
+      "channel": "ef29dcff",
+      "phase": "",
+      "utc": "2026-10-03T09:20:56.801131Z",
+      "nano": 13075839488000,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "APP_LATER_PAGE_SENT",
+      "channel": "bc732803",
+      "phase": "",
+      "utc": "2026-10-03T09:20:57.107383Z",
+      "nano": 13076145744041,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "APP_LATER_PAGE_SENT",
+      "channel": "e60fd530",
+      "phase": "",
+      "utc": "2026-10-03T09:20:57.405686Z",
+      "nano": 13076444038958,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "APP_LATER_PAGE_SENT",
+      "channel": "56935fec",
+      "phase": "",
+      "utc": "2026-10-03T09:20:57.711066Z",
+      "nano": 13076749424416,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "51be9207",
+      "phase": "",
+      "utc": "2026-10-03T09:20:58.012169Z",
+      "nano": 13077050538750,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "1a443f5d",
+      "phase": "",
+      "utc": "2026-10-03T09:20:58.012959Z",
+      "nano": 13077051311708,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "08e932ce",
+      "phase": "",
+      "utc": "2026-10-03T09:20:58.013356Z",
+      "nano": 13077051734375,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "bb4c0f1b",
+      "phase": "",
+      "utc": "2026-10-03T09:20:58.014157Z",
+      "nano": 13077052519583,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "0e689147",
+      "phase": "",
+      "utc": "2026-10-03T09:20:58.014675Z",
+      "nano": 13077053020166,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "bc732803",
+      "phase": "",
+      "utc": "2026-10-03T09:20:58.014850Z",
+      "nano": 13077053191333,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "56935fec",
+      "phase": "",
+      "utc": "2026-10-03T09:20:58.014983Z",
+      "nano": 13077053324000,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "e60fd530",
+      "phase": "",
+      "utc": "2026-10-03T09:20:58.015092Z",
+      "nano": 13077053432583,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "ef29dcff",
+      "phase": "",
+      "utc": "2026-10-03T09:20:58.015200Z",
+      "nano": 13077053540583,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "CHANNEL_CLOSED",
+      "channel": "1354ff2e",
+      "phase": "",
+      "utc": "2026-10-03T09:20:58.015314Z",
+      "nano": 13077053653916,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 139,
+      "session": "s2"
+    },
+    {
+      "event": "TARGET_SESSION_REGISTERED",
+      "channel": "",
+      "phase": "",
+      "utc": "2026-10-03T09:21:32.213029Z",
+      "nano": 13111251397916,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 164,
+      "session": "s3"
+    },
+    {
+      "event": "ATTACHED_TLS_PRESERVED",
+      "channel": "8d816eae",
+      "phase": "",
+      "utc": "2026-10-03T09:21:32.220265Z",
+      "nano": 13111258618208,
+      "ownerThread": "cassandra-poll-poll_isolated_init",
+      "ownerThreadId": 164,
+      "session": "s3"
+    }
+  ],
+  "heldResponseReleasedUtc": "2026-10-03T09:19:36.209616Z",
+  "closeAfterReleaseSeconds": 46.637565875,
+  "canceledOwnerApplicationQueries": 0,
+  "initialCaptureWaitSeconds": 45,
+  "resumedExistingEvidenceAfterCaptureWaitExpired": true,
+  "faultRearmedDuringEvidenceResume": false
+}
