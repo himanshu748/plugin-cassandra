@@ -43,8 +43,9 @@ import lombok.experimental.SuperBuilder;
                     values: "{{ trigger.rows }}"
                     tasks:
                       - id: return
-                        type: io.kestra.plugin.core.debug.Return
-                        format: "{{ fromJson(taskrun.value) }}"
+                        type: io.kestra.plugin.core.output.OutputValues
+                        values:
+                          result: "{{ fromJson(taskrun.value) }}"
 
                 triggers:
                   - id: watch
